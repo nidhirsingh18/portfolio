@@ -1,3 +1,25 @@
-.icons-custom{
-    margin-top: 10px;
+.icons-custom {
+  margin-top: 5px;
+}
+
+article img {
+  width: 100%; /* or a fixed width if that's your need */
+  height: 200px; /* the fixed height you want */
+  object-fit: cover; /* crop image instead of stretching */
+  object-position: 50% 50%; /* center the cropped area (optional) */
+  display: block;
+}
+
+.inner h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner h1 strong {
+  font-weight: 900;
+  font-size: larger;
+}
+
+.inner h1 span {
+  line-height: 1.5em;
 }
